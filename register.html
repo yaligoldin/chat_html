@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register screen</title>
+    <link href="bs.css" rel="stylesheet">
+    <link href="register.css" rel="stylesheet">
+    <!-- Include Bootstrap CSS and JS files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+</head>
+
+<body style="background-image: url(background.jpg); margin-top: 3%; margin-bottom: 3%;">
+    <div class="banner">
+        <div class="jumbotron jumbotron-fluid" ; style="text-align: center;">
+            <div class="container">
+                <img src="logoWithSub.png">
+            </div>
+        </div>
+        <form action="chats.html" ; style="margin-left:35%; margin-right: 35%;">
+            <div class="form-group">
+                <label for="exampleInputUsername1"> Username:</label>
+                <input class="form-control" id="exampleInputUsername1" placeholder="Enter Username">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password:</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password verification:</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleInputUsername1">Display name:</label>
+                    <input class="form-control" id="exampleInputUsername1" placeholder="Enter Username">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="picture">Profile Picture:</label>
+                    <input type="file" class="form-control-file" id="picture">
+                    <img src="profile.jpg" height="100px">
+                </div>
+                <br>
+                <button style="margin-bottom: 8px" type="submit" class="btn btn-primary">Register</button>
+                <span style="margin-left: 190px;">
+                    Already registered?
+                    <a href="login.html">Click here</a> to log in
+                </span>
+            </div>
+            <br>
+        </form>
+    </div>
+
+</body>
+
+</html>
